@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A18492252B9929F30080B627 /* GradientGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18492242B9929F30080B627 /* GradientGrid.swift */; };
 		A1BBC02D2B97EC6200B9ED40 /* ColorPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBC02C2B97EC6200B9ED40 /* ColorPickerApp.swift */; };
 		A1BBC02F2B97EC6200B9ED40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBC02E2B97EC6200B9ED40 /* ContentView.swift */; };
 		A1BBC0312B97EC6300B9ED40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BBC0302B97EC6300B9ED40 /* Assets.xcassets */; };
 		A1BBC0342B97EC6300B9ED40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BBC0332B97EC6300B9ED40 /* Preview Assets.xcassets */; };
+		A1BBC03B2B97EDD500B9ED40 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBC03A2B97EDD500B9ED40 /* ZoomableScrollView.swift */; };
+		A1BBC03D2B981F1400B9ED40 /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBC03C2B981F1400B9ED40 /* CustomColorPicker.swift */; };
+		A1BBC0412B985A9C00B9ED40 /* MarkerColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BBC0402B985A9C00B9ED40 /* MarkerColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A18492242B9929F30080B627 /* GradientGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientGrid.swift; sourceTree = "<group>"; };
 		A1BBC0292B97EC6200B9ED40 /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BBC02C2B97EC6200B9ED40 /* ColorPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerApp.swift; sourceTree = "<group>"; };
 		A1BBC02E2B97EC6200B9ED40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1BBC0302B97EC6300B9ED40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BBC0332B97EC6300B9ED40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1BBC03A2B97EDD500B9ED40 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
+		A1BBC03C2B981F1400B9ED40 /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
+		A1BBC0402B985A9C00B9ED40 /* MarkerColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerColorPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				A1BBC02C2B97EC6200B9ED40 /* ColorPickerApp.swift */,
 				A1BBC02E2B97EC6200B9ED40 /* ContentView.swift */,
+				A1BBC03C2B981F1400B9ED40 /* CustomColorPicker.swift */,
+				A1BBC0402B985A9C00B9ED40 /* MarkerColorPickerView.swift */,
+				A18492242B9929F30080B627 /* GradientGrid.swift */,
+				A1BBC03A2B97EDD500B9ED40 /* ZoomableScrollView.swift */,
 				A1BBC0302B97EC6300B9ED40 /* Assets.xcassets */,
 				A1BBC0322B97EC6300B9ED40 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BBC0412B985A9C00B9ED40 /* MarkerColorPickerView.swift in Sources */,
 				A1BBC02F2B97EC6200B9ED40 /* ContentView.swift in Sources */,
+				A1BBC03B2B97EDD500B9ED40 /* ZoomableScrollView.swift in Sources */,
+				A1BBC03D2B981F1400B9ED40 /* CustomColorPicker.swift in Sources */,
 				A1BBC02D2B97EC6200B9ED40 /* ColorPickerApp.swift in Sources */,
+				A18492252B9929F30080B627 /* GradientGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
